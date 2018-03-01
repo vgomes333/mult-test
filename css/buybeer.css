@@ -1,0 +1,27 @@
+.buybeer{
+    background-image: url(../img/bg-donate.png);
+    padding: 80px;
+    text-align: center;
+}
+
+.buybeer-text{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.buybeer-btn{
+    text-decoration: none;
+    background-color: transparent;    
+    padding: 12px 20px 12px 12px;    
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+}
+
+.buybeer-btn-ico{
+    margin-left: 20px;
+}
