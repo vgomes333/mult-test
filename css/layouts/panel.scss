@@ -1,0 +1,49 @@
+.header-panel {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+
+.header-panel-btnDownload {
+    background-color: transparent;
+    padding: 12px 20px 12px 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+}
+
+.header-panel-download-ico {
+    margin-left: 20px;
+}
+
+.header-panel-btnDownload:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.header-panel-text {
+    margin-bottom: 45px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 320px) {
+    .header-panel p{
+        text-align: center;
+    }
+     .header-iphone {
+         margin-top: 20px;
+     }
+}
+
+@media screen and (max-width: 380px) {
+    .header-panel p{
+        text-align: center;
+    }
+     .header-iphone {
+         margin-top: 20px;
+     }
+}
