@@ -9,28 +9,27 @@
     list-style: none;
     display: inline-block;
     margin: 18px;
-}
 
-.newsletter-list a{
-    display: block;
-    padding: 12px;
-    border: 2px;
-    border-style: solid;
-    border-color: #3339;
-    border-radius: 50%;
-}
+    a{
+        display: block;
+        padding: 12px;
+        border: 2px;
+        border-style: solid;
+        border-color: #3339;
+        border-radius: 50%;
 
-.newsletter-list a:hover{
-    background-color: #61c0e7;
-}
+        &::hover{
+            background-color: #61c0e7;
 
-.newsletter-list a:hover svg {
-    fill: #fff;
-}
+            svg {
+                fill: #fff;
+            }
+        }
+    }
 
-
-.newsletter-list svg {
-    fill: #3339;
+    svg {
+        fill: #3339;
+    }
 }
 
 .subscription{

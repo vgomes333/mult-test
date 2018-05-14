@@ -14,15 +14,10 @@
     font-weight: 300;
 }
 
-.dribble-btnDribble{
-    text-decoration: none;
-    background-color: transparent;    
-    padding: 12px 20px 12px 12px;    
-    border-style: solid;
-    border-width: 2px;
+.dribble-btnDribble{ 
+    @include button;
     border-color: #ff56aa;
     color: #ff56aa;
-    font-size: 16px;
 }
 
 .dribble-btn-ico{
@@ -34,7 +29,7 @@
         text-align: center;
         margin-bottom: 30px;
     }
-
+    
     .dribble-text-2{
         margin-bottom: 30px;
     }

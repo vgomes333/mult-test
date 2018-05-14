@@ -1,27 +1,23 @@
 .header-panel {
     text-align: right;
-    color: white;
+    color: $color-white;
     font-size: 20px;
 }
 
 .header-panel-btnDownload {
-    background-color: transparent;
-    padding: 12px 20px 12px 12px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    color: white;
-    font-size: 16px;
+    @include button;
+    border-color: $color-white;
+    color: $color-white;
+
+    &:hover {
+        text-decoration: none;
+        cursor: pointer;
+        color:$color-white;
+    }
 }
 
 .header-panel-download-ico {
     margin-left: 20px;
-}
-
-.header-panel-btnDownload:hover {
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
 }
 
 .header-panel-text {

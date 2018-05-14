@@ -6,40 +6,40 @@
     position: fixed;
     top: 0;
     left: 0;
-}
-
-.menu ul {
-    width: 100%;
-    float: left;
-    text-align: center;
-}
-
-.menu li {
-    padding: 1.5%;
-}
-
-.menu li a {
-    font-size: 2em;
-    color: #fff;
-    padding: 1.5% 3%;
-}
-
-.menu li a:hover {
-    color: #099fda;
-    transition: 0.2s;
+    
+    ul {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    
+    li {
+        padding: 1.5%;
+    }
+    
+    li a {
+        font-size: 2em;
+        color: $color-white;
+        padding: 1.5% 3%;
+        
+        &:hover{
+            color: $color-hover;
+            transition: 0.2s;
+        }
+    }
 }
 
 .btn-close {
     font-size: 1.5em;
-    color: #fff;
+    color: $color-white;
     float: right;
     cursor: pointer;
     margin: 2% 3% 0 0;
-}
 
-.btn-close:hover {
-    color: #099fda;
-    transition: 0.2s;
+    &:hover {
+        color: $color-hover;
+        transition: 0.2s;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -56,19 +56,22 @@
         display: block;
         float: right;
         position: static;
-    }
-    .menu li {
-        padding: 0;
-        float: left;
-    }
-    .menu li a {
-        border-right: 1px solid black;
-        font-size: 1em;
-        padding: 4px;
-        line-height: 5em;
-    }
-    .menu li a:hover {
-        color: black;
-        transition: 0.2s;
+
+        li {
+            padding: 0;
+            float: left;
+        }
+
+        li a {
+            border-right: 1px solid black;
+            font-size: 1em;
+            padding: 4px;
+            line-height: 5em;
+
+            &:hover {
+                color: black;
+                transition: 0.2s;
+            }
+        }
     }
 }
