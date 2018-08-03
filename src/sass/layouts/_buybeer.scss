@@ -1,0 +1,22 @@
+.buybeer{
+    background-image: url(../img/bg-donate.png);
+    padding: 80px;
+    text-align: center;
+}
+
+.buybeer-text{
+    font-size: 35px;
+    color: $color-white;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.buybeer-btn{  
+    @include button;
+    border-color: $color-white;
+    color: $color-white;
+}
+
+.buybeer-btn-ico{
+    margin-left: 20px;
+}

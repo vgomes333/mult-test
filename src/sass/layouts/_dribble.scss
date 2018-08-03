@@ -1,0 +1,36 @@
+.dribble-text{
+    float: right;
+    margin-top: 40px;
+}
+
+.dribble-text-1{
+    margin-bottom: 15px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.dribble-text-2{
+    margin-bottom: 65px;
+    font-weight: 300;
+}
+
+.dribble-btnDribble{ 
+    @include button;
+    border-color: #ff56aa;
+    color: #ff56aa;
+}
+
+.dribble-btn-ico{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .dribble-text{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .dribble-text-2{
+        margin-bottom: 30px;
+    }
+}
