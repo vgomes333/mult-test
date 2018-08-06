@@ -1,0 +1,49 @@
+.header-panel {
+    text-align: right;
+    color: $color-white;
+    font-size: 20px;
+
+    &-btnDownload {
+        @include button;
+        border-color: #fff;
+        color: $color-white;
+
+        &:hover {
+            text-decoration: none;
+            cursor: pointer;
+            color:$color-white;
+        }
+    }
+
+    &-download-ico {
+        margin-left: 20px;
+    }
+
+    &-text {
+        margin-bottom: 45px;
+        margin-top: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .header-panel p{
+        text-align: center;
+    }
+     .header-iphone {
+         margin-top: 20px;
+     }
+}
+
+@media screen and (max-width: 380px) {
+    .header-panel p{
+        text-align: center;
+    }
+     .header-iphone {
+         margin-top: 20px;
+     }
+}
